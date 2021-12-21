@@ -13115,10 +13115,11 @@ div#notebook {
 <h1 id="An-Analysis-of-Popular-Cryptocurrencies"><strong><em>An Analysis of Popular Cryptocurrencies</em></strong><a class="anchor-link" href="#An-Analysis-of-Popular-Cryptocurrencies">&#182;</a></h1><p><em>An in-depth analysis of Popular Crypocurrencies sold on Robinhood by Ali-Reza Rizwani</em></p>
 <hr>
 <h3 id="Introduction"><strong><em>Introduction</em></strong><a class="anchor-link" href="#Introduction">&#182;</a></h3><p><em>Cryptocurrency, what is it?</em></p>
-<p><em>We've all heard of Cryptocurrency and the prevelant Bitcoin... But what is it?  Cryptocurrency is an online currency that utilizes a technology called blockchain. Simply put, it's a online money. Now, what makes this soo attractive to investors and consumers alike? Well, similar to a mixture of the stock market and cash, it's got the best of both worlds. It can be used as currency and still has returns like the stock market. Now, what are the drawbacks? And I can only find one... <strong>VOLATILITY</strong>.</em></p>
+<p><em>We've all heard of <a href="https://www.forbes.com/advisor/investing/what-is-cryptocurrency/">Cryptocurrency</a> and the prevelant Bitcoin... But what is it?  Cryptocurrency is an online currency that utilizes a technology called <a href="https://www.investopedia.com/terms/b/blockchain.asp">blockchain</a>. Simply put, it's a online money. Now, what makes this soo attractive to investors and consumers alike? Well, similar to a mixture of the stock market and cash, it's got the best of both worlds. It can be used as currency and still has returns like the stock market. Now, what are the drawbacks? And I can only find one... <strong>VOLATILITY</strong>.</em></p>
 <p><em>Now, our goal is to expose that one drawback and use it to our advantage, we will try and observe the crypto market over the past couple of years and develop a trading method proved by machine learning, complex algorithms, and math. From this, we will choose which method is best for us to pursue to make the highest amount of capital gain. The question we are trying to answer is, can we utilize our data analysis to capitalize on the volatility of the cryptocurrencies?</em></p>
 <p>*<em>This project is in not meant as financial advice nor should it be taken as such</em></p>
-<p><em>**Reproducing any code or formulas derived by me should first seek permission</em></p>
+<p><em>**The <a href="https://www.forbes.com/advisor/investing/what-is-cryptocurrency/">link</a> about Cryptocurrencies is really good</em></p>
+<p><em>**</em>Reproducing any code or formulas derived by me should first seek permission*</p>
 
 </div>
 </div>
@@ -13152,13 +13153,14 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong><em>Data Curation</em></strong></p>
-<p><em>We will be importing 4 different CSV files with a lot of historical data about their respective coins. Keep in mind that the data does not include all of 2021 nor all the data that a normal trader would have. We have much less data and because of that some estimations and a lot of calculations will take place. The 4 coins chosen are my favorite and most popular/known cryptocurrencies sold on Robinhood including:</em></p>
+<p><em>We will be importing 4 different CSV files with a lot of historical data about their respective coins. Keep in mind that the data does not include all of 2021 nor all the data that a normal trader would have. We have much less data and because of that some estimations and a lot of calculations will take place. The 4 coins chosen are my favorite and most popular/known cryptocurrencies sold on <a href="https://robinhood.com">Robinhood</a> including:</em></p>
 <p>Bitcoin (BTC)</p>
 <p>Dogecoin (DOGE)</p>
 <p>Litecoin (LTC)</p>
 <p>Ethereum (ETH)</p>
 <p><em>We have downloaded the datasets from <a href="https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory?select=coin_Dogecoin.csv">Kaggle</a> curated by <a href="https://www.kaggle.com/sudalairajkumar">SRK</a> which was accessed on the 18th of December, 2021.</em></p>
-<p>(<a href="https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory?select=coin_Dogecoin.csv">https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory?select=coin_Dogecoin.csv</a>)</p>
+<p><em><a href="https://join.robinhood.com/alirezr58">If you would like to join Robinhood please use this link</a></em></p>
+<p>DATSET: (<a href="https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory?select=coin_Dogecoin.csv">https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory?select=coin_Dogecoin.csv</a>)</p>
 
 </div>
 </div>
@@ -13189,9 +13191,9 @@ div#notebook {
 
 <div class="output_html rendered_html output_subarea ">
 
-     <input type="file" id="files-b77d5a8b-ec59-45b7-84fd-1481d2f195a9" name="files[]" multiple disabled
+     <input type="file" id="files-a322f174-acca-4e80-9981-5b4f0fcc1db7" name="files[]" multiple disabled
         style="border:none" />
-     <output id="result-b77d5a8b-ec59-45b7-84fd-1481d2f195a9">
+     <output id="result-a322f174-acca-4e80-9981-5b4f0fcc1db7">
       Upload widget is only available when the cell has been executed in the
       current browser session. Please rerun this cell to enable.
       </output>
@@ -13206,10 +13208,10 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Saving coin_Bitcoin.csv to coin_Bitcoin (1).csv
-Saving coin_Dogecoin.csv to coin_Dogecoin (1).csv
-Saving coin_Ethereum.csv to coin_Ethereum (1).csv
-Saving coin_Litecoin.csv to coin_Litecoin (1).csv
+<pre>Saving coin_Bitcoin.csv to coin_Bitcoin.csv
+Saving coin_Dogecoin.csv to coin_Dogecoin.csv
+Saving coin_Ethereum.csv to coin_Ethereum.csv
+Saving coin_Litecoin.csv to coin_Litecoin.csv
 </pre>
 </div>
 </div>
@@ -13243,7 +13245,7 @@ Saving coin_Litecoin.csv to coin_Litecoin (1).csv
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-001c0016-6fd3-4221-acd3-73449043bac9">
+  <div id="df-c054e135-7cf6-4ae8-a4f3-eb0a10b8aad0">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -13344,7 +13346,7 @@ Saving coin_Litecoin.csv to coin_Litecoin (1).csv
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-001c0016-6fd3-4221-acd3-73449043bac9')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-c054e135-7cf6-4ae8-a4f3-eb0a10b8aad0')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -13395,12 +13397,12 @@ Saving coin_Litecoin.csv to coin_Litecoin (1).csv
 
       <script>
         const buttonEl =
-          document.querySelector('#df-001c0016-6fd3-4221-acd3-73449043bac9 button.colab-df-convert');
+          document.querySelector('#df-c054e135-7cf6-4ae8-a4f3-eb0a10b8aad0 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-001c0016-6fd3-4221-acd3-73449043bac9');
+          const element = document.querySelector('#df-c054e135-7cf6-4ae8-a4f3-eb0a10b8aad0');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -13453,7 +13455,7 @@ Saving coin_Litecoin.csv to coin_Litecoin (1).csv
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-2bc6d357-bf47-4c16-9901-c7d33c8053e8">
+  <div id="df-7dd857c6-17c4-4059-9515-2e5a36964ef3">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -13554,7 +13556,7 @@ Saving coin_Litecoin.csv to coin_Litecoin (1).csv
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-2bc6d357-bf47-4c16-9901-c7d33c8053e8')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-7dd857c6-17c4-4059-9515-2e5a36964ef3')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -13605,12 +13607,12 @@ Saving coin_Litecoin.csv to coin_Litecoin (1).csv
 
       <script>
         const buttonEl =
-          document.querySelector('#df-2bc6d357-bf47-4c16-9901-c7d33c8053e8 button.colab-df-convert');
+          document.querySelector('#df-7dd857c6-17c4-4059-9515-2e5a36964ef3 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-2bc6d357-bf47-4c16-9901-c7d33c8053e8');
+          const element = document.querySelector('#df-7dd857c6-17c4-4059-9515-2e5a36964ef3');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -13663,7 +13665,7 @@ Saving coin_Litecoin.csv to coin_Litecoin (1).csv
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-fb02f262-8a0b-4e0a-a067-94c7597e9b90">
+  <div id="df-a74f3214-4c7c-48bc-a19e-4b397dbfac9b">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -13764,7 +13766,7 @@ Saving coin_Litecoin.csv to coin_Litecoin (1).csv
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-fb02f262-8a0b-4e0a-a067-94c7597e9b90')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-a74f3214-4c7c-48bc-a19e-4b397dbfac9b')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -13815,12 +13817,12 @@ Saving coin_Litecoin.csv to coin_Litecoin (1).csv
 
       <script>
         const buttonEl =
-          document.querySelector('#df-fb02f262-8a0b-4e0a-a067-94c7597e9b90 button.colab-df-convert');
+          document.querySelector('#df-a74f3214-4c7c-48bc-a19e-4b397dbfac9b button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-fb02f262-8a0b-4e0a-a067-94c7597e9b90');
+          const element = document.querySelector('#df-a74f3214-4c7c-48bc-a19e-4b397dbfac9b');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -13873,7 +13875,7 @@ Saving coin_Litecoin.csv to coin_Litecoin (1).csv
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-87a0eaeb-f5a2-49f2-8ec1-f91806ae8a13">
+  <div id="df-8d05cb4a-e539-408d-804e-166cd84adcc5">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -13974,7 +13976,7 @@ Saving coin_Litecoin.csv to coin_Litecoin (1).csv
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-87a0eaeb-f5a2-49f2-8ec1-f91806ae8a13')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-8d05cb4a-e539-408d-804e-166cd84adcc5')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -14025,12 +14027,12 @@ Saving coin_Litecoin.csv to coin_Litecoin (1).csv
 
       <script>
         const buttonEl =
-          document.querySelector('#df-87a0eaeb-f5a2-49f2-8ec1-f91806ae8a13 button.colab-df-convert');
+          document.querySelector('#df-8d05cb4a-e539-408d-804e-166cd84adcc5 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-87a0eaeb-f5a2-49f2-8ec1-f91806ae8a13');
+          const element = document.querySelector('#df-8d05cb4a-e539-408d-804e-166cd84adcc5');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -14297,7 +14299,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-355b8059-7997-4987-bbf9-2f0b064f9aa6">
+  <div id="df-e698fe5a-0962-456c-88aa-c392e6c15ac2">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -14441,7 +14443,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-355b8059-7997-4987-bbf9-2f0b064f9aa6')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-e698fe5a-0962-456c-88aa-c392e6c15ac2')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -14492,12 +14494,12 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
       <script>
         const buttonEl =
-          document.querySelector('#df-355b8059-7997-4987-bbf9-2f0b064f9aa6 button.colab-df-convert');
+          document.querySelector('#df-e698fe5a-0962-456c-88aa-c392e6c15ac2 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-355b8059-7997-4987-bbf9-2f0b064f9aa6');
+          const element = document.querySelector('#df-e698fe5a-0962-456c-88aa-c392e6c15ac2');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -14550,7 +14552,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-f0cff1d6-39ba-4e36-b898-340beff53915">
+  <div id="df-56c31767-603c-4657-a4b7-abc00054e7e6">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -14694,7 +14696,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-f0cff1d6-39ba-4e36-b898-340beff53915')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-56c31767-603c-4657-a4b7-abc00054e7e6')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -14745,12 +14747,12 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
       <script>
         const buttonEl =
-          document.querySelector('#df-f0cff1d6-39ba-4e36-b898-340beff53915 button.colab-df-convert');
+          document.querySelector('#df-56c31767-603c-4657-a4b7-abc00054e7e6 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-f0cff1d6-39ba-4e36-b898-340beff53915');
+          const element = document.querySelector('#df-56c31767-603c-4657-a4b7-abc00054e7e6');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -14803,7 +14805,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-9f99197b-6031-4880-8a61-e1cac70e5580">
+  <div id="df-a1e7a92b-7888-4bb9-8a69-21f4b7942bf1">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -14947,7 +14949,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-9f99197b-6031-4880-8a61-e1cac70e5580')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-a1e7a92b-7888-4bb9-8a69-21f4b7942bf1')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -14998,12 +15000,12 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
       <script>
         const buttonEl =
-          document.querySelector('#df-9f99197b-6031-4880-8a61-e1cac70e5580 button.colab-df-convert');
+          document.querySelector('#df-a1e7a92b-7888-4bb9-8a69-21f4b7942bf1 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-9f99197b-6031-4880-8a61-e1cac70e5580');
+          const element = document.querySelector('#df-a1e7a92b-7888-4bb9-8a69-21f4b7942bf1');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -15056,7 +15058,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-d414a264-46ad-4361-aac7-8ecd7f3dcedd">
+  <div id="df-d1846aa2-9609-4487-bc17-91e6ff27fcae">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -15200,7 +15202,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-d414a264-46ad-4361-aac7-8ecd7f3dcedd')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-d1846aa2-9609-4487-bc17-91e6ff27fcae')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -15251,12 +15253,12 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
       <script>
         const buttonEl =
-          document.querySelector('#df-d414a264-46ad-4361-aac7-8ecd7f3dcedd button.colab-df-convert');
+          document.querySelector('#df-d1846aa2-9609-4487-bc17-91e6ff27fcae button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-d414a264-46ad-4361-aac7-8ecd7f3dcedd');
+          const element = document.querySelector('#df-d1846aa2-9609-4487-bc17-91e6ff27fcae');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -15309,7 +15311,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-2e26b244-5d99-4b36-a78b-33306dbec6d9">
+  <div id="df-773dae7e-4ff6-40e4-aa41-5b282211d077">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -15453,7 +15455,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-2e26b244-5d99-4b36-a78b-33306dbec6d9')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-773dae7e-4ff6-40e4-aa41-5b282211d077')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -15504,12 +15506,12 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
       <script>
         const buttonEl =
-          document.querySelector('#df-2e26b244-5d99-4b36-a78b-33306dbec6d9 button.colab-df-convert');
+          document.querySelector('#df-773dae7e-4ff6-40e4-aa41-5b282211d077 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-2e26b244-5d99-4b36-a78b-33306dbec6d9');
+          const element = document.querySelector('#df-773dae7e-4ff6-40e4-aa41-5b282211d077');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -15541,6 +15543,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Exploratory-Data-Analysis"><strong><em>Exploratory Data Analysis</em></strong><a class="anchor-link" href="#Exploratory-Data-Analysis">&#182;</a></h2><p><em>Now we shall go ahead and analyze our data. I would like to calculate some things like the Exponential Moving Averages, Relative strength Index, and other common indicators for stocks (obviously with my own twist on them). But first, I would like to go ahead and plot the data that I currently have so that we may see what we are dealing with.</em></p>
+<p><em>Great <a href="https://www.ig.com/us/trading-strategies/10-trading-indicators-every-trader-should-know-190604">link</a> showing and explaining indicators</em></p>
 
 </div>
 </div>
@@ -15794,7 +15797,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-f9757b27-0fed-44b0-93e9-f05c22ffc83e">
+  <div id="df-e436a017-6750-46eb-b10e-80a8805116d1">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -15950,7 +15953,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 </table>
 <p>2991 rows × 8 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-f9757b27-0fed-44b0-93e9-f05c22ffc83e')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-e436a017-6750-46eb-b10e-80a8805116d1')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -16001,12 +16004,12 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
       <script>
         const buttonEl =
-          document.querySelector('#df-f9757b27-0fed-44b0-93e9-f05c22ffc83e button.colab-df-convert');
+          document.querySelector('#df-e436a017-6750-46eb-b10e-80a8805116d1 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-f9757b27-0fed-44b0-93e9-f05c22ffc83e');
+          const element = document.querySelector('#df-e436a017-6750-46eb-b10e-80a8805116d1');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -16102,7 +16105,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-7e5a1c79-b1ef-4cef-bb7f-525d02b9a9c0">
+  <div id="df-3156f630-feba-4303-83b7-5cbb2ec4560f">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -16258,7 +16261,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 </table>
 <p>247 rows × 8 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-7e5a1c79-b1ef-4cef-bb7f-525d02b9a9c0')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-3156f630-feba-4303-83b7-5cbb2ec4560f')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -16309,12 +16312,12 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
       <script>
         const buttonEl =
-          document.querySelector('#df-7e5a1c79-b1ef-4cef-bb7f-525d02b9a9c0 button.colab-df-convert');
+          document.querySelector('#df-3156f630-feba-4303-83b7-5cbb2ec4560f button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-7e5a1c79-b1ef-4cef-bb7f-525d02b9a9c0');
+          const element = document.querySelector('#df-3156f630-feba-4303-83b7-5cbb2ec4560f');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -16550,7 +16553,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><em>Now a quick explanation of what we see. The blue line is the linear regression for that given year. And the red is supposed to be just a comparison from the last year. We can see that this does not work as a good way of prediction as the trends are much smaller. We will go ahead and plot the rest of the cryptocurrencies and try and spot smaller trends for our algorithm and we can use the valuable information such as the slope later on.</em></p>
+<p><em>Now a quick explanation of what we see. The blue line is the <a href="https://machinelearningmastery.com/linear-regression-for-machine-learning/">linear regression</a> for that given year. And the red is supposed to be just a comparison from the last year. We can see that this does not work as a good way of prediction as the trends are much smaller. We will go ahead and plot the rest of the cryptocurrencies and try and spot smaller trends for our algorithm and we can use the valuable information such as the slope later on.</em></p>
 
 </div>
 </div>
@@ -16579,7 +16582,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-17f1b7e8-14b8-48dc-9369-b3b12dfc581c">
+  <div id="df-cb1d995a-da5c-4cb2-93b6-4ea5b6fed507">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -16735,7 +16738,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 </table>
 <p>2760 rows × 8 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-17f1b7e8-14b8-48dc-9369-b3b12dfc581c')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-cb1d995a-da5c-4cb2-93b6-4ea5b6fed507')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -16786,12 +16789,12 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
       <script>
         const buttonEl =
-          document.querySelector('#df-17f1b7e8-14b8-48dc-9369-b3b12dfc581c button.colab-df-convert');
+          document.querySelector('#df-cb1d995a-da5c-4cb2-93b6-4ea5b6fed507 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-17f1b7e8-14b8-48dc-9369-b3b12dfc581c');
+          const element = document.querySelector('#df-cb1d995a-da5c-4cb2-93b6-4ea5b6fed507');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -16887,7 +16890,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-90f3649a-fe10-4db8-b55d-9211e091cd7b">
+  <div id="df-ffb71fdb-6b76-4059-b775-4a25c82aa315">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -17043,7 +17046,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 </table>
 <p>365 rows × 8 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-90f3649a-fe10-4db8-b55d-9211e091cd7b')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-ffb71fdb-6b76-4059-b775-4a25c82aa315')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -17094,12 +17097,12 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
       <script>
         const buttonEl =
-          document.querySelector('#df-90f3649a-fe10-4db8-b55d-9211e091cd7b button.colab-df-convert');
+          document.querySelector('#df-ffb71fdb-6b76-4059-b775-4a25c82aa315 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-90f3649a-fe10-4db8-b55d-9211e091cd7b');
+          const element = document.querySelector('#df-ffb71fdb-6b76-4059-b775-4a25c82aa315');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -17353,7 +17356,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-88318006-0109-4727-9a9a-b72f85056090">
+  <div id="df-45d21fce-2aec-4402-abd3-f7ffba07cf8b">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -17509,7 +17512,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 </table>
 <p>2160 rows × 8 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-88318006-0109-4727-9a9a-b72f85056090')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-45d21fce-2aec-4402-abd3-f7ffba07cf8b')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -17560,12 +17563,12 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
       <script>
         const buttonEl =
-          document.querySelector('#df-88318006-0109-4727-9a9a-b72f85056090 button.colab-df-convert');
+          document.querySelector('#df-45d21fce-2aec-4402-abd3-f7ffba07cf8b button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-88318006-0109-4727-9a9a-b72f85056090');
+          const element = document.querySelector('#df-45d21fce-2aec-4402-abd3-f7ffba07cf8b');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -17654,7 +17657,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-9428491b-4022-459d-9553-c755009b9b3e">
+  <div id="df-ab379db2-a886-4cd7-9fb2-737c527e33b9">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -17810,7 +17813,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 </table>
 <p>366 rows × 8 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-9428491b-4022-459d-9553-c755009b9b3e')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-ab379db2-a886-4cd7-9fb2-737c527e33b9')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -17861,12 +17864,12 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
       <script>
         const buttonEl =
-          document.querySelector('#df-9428491b-4022-459d-9553-c755009b9b3e button.colab-df-convert');
+          document.querySelector('#df-ab379db2-a886-4cd7-9fb2-737c527e33b9 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-9428491b-4022-459d-9553-c755009b9b3e');
+          const element = document.querySelector('#df-ab379db2-a886-4cd7-9fb2-737c527e33b9');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -18082,7 +18085,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-  <div id="df-2f9e4024-9eaa-4c04-8b82-ae7ef59f6b58">
+  <div id="df-4b02d3d0-728d-4f10-858a-9dfb4dc6c578">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -18238,7 +18241,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 </table>
 <p>2991 rows × 8 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-2f9e4024-9eaa-4c04-8b82-ae7ef59f6b58')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-4b02d3d0-728d-4f10-858a-9dfb4dc6c578')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -18289,12 +18292,12 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
       <script>
         const buttonEl =
-          document.querySelector('#df-2f9e4024-9eaa-4c04-8b82-ae7ef59f6b58 button.colab-df-convert');
+          document.querySelector('#df-4b02d3d0-728d-4f10-858a-9dfb4dc6c578 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-2f9e4024-9eaa-4c04-8b82-ae7ef59f6b58');
+          const element = document.querySelector('#df-4b02d3d0-728d-4f10-858a-9dfb4dc6c578');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -18893,7 +18896,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 <p><em>Finally, now that we have some knowledge on the history of these cryptos, from our data we can find derive what specifically to look for in our investment. The 2 big things I care about whenever I invest are the following:</em></p>
 <p><em>Return - How much money I make on my investment</em></p>
 <p><em>Risk - How much am I willing to lose based on my return</em></p>
-<p><em>These two are just what I think are the two most important factors, of course, there are others like liquidity, growth, stability, initial investment, debt, and many more but the 2 Rs I think cover everything important for our purposes.</em></p>
+<p><em>These two are just what I think are the two most important factors, of course, there are others like liquidity, growth, stability, initial investment, debt, and many more but the 2 Rs I think cover everything important for our purposes. However, here is a great <a href="https://www.thebalance.com/what-is-a-good-investment-2388572">resource</a> going over what makes a good investment</em></p>
 <p><em>Now, in crypto, because we are analyzing Robinhood which allows us to buy part of a coin and sell whenever, we will not be accounting for all factors. But for our return, we need to see when to buy and sell to make the most amount of money. I prefer being in stocks/crypto for a short period trying to capitalize on the gains and get out before the losses. This method has its flaws caused by human nature such as greed and the inability to see the big picture.</em></p>
 <p><em>An example of this is my day trading activities of crypto more specifically DOGECOIN. I was making a return of 1-2 percent weekly if not more, however, when doge dropped, my greed said I cannot take a loss and decided to hold even though the risk was high. This caused me to lose a lot of what I made day trading losing a total of 30% before I finally got out.  I consider this to be an incredibly valuable lesson and from what we learned, I try and avoid similar situations.</em></p>
 <p><em>So, how will we get rid of the human nature aspect? Simple, get rid of the humans! This code can run day and night and with minor modifications do the trading for you! In fact, most trading activity is done by computers (seen here), so let the best algorithm win!</em></p>
@@ -21226,18 +21229,18 @@ DOING NOTHING GAIN
 <p><em>Let's verify with our 'bank' which starts the year with 100k and executes theoretical trades WITHOUT knowing the future. In my opinion, for me to deem an algorithm successful it should beat the base case by a couple of percents.</em></p>
 <p><em>However, for an algorithm to be very successful and lucrative, I would say it should outperform the base case 3 fold. Now, with the base case for the data we have so far for 2021 we would need to have a gain of about 100 percent as the base is 30 percent. Our method using machine learning and data analysis did... Drumroll Please...  550 percent! 
 IT'S INCREDIBLE!</em></p>
-<p><em>So the takeaway message is machine learning and algorithms can help us capitalize on the cryptocurrency market, stock market, and even forex. This is why the majority of the trades are done by machine, they are way better at it then we are.</em></p>
+<p><em>So the takeaway message is <a href="https://www.economist.com/briefing/2019/10/05/the-stockmarket-is-now-run-by-computers-algorithms-and-passive-managers">machine learning and algorithms</a> can help us capitalize on the cryptocurrency market, stock market, and even forex. This is why the majority of the trades are done by machine, they are way better at it then we are. This is important because like baseball teams using data science to maximize their profits and players abilites, we can use data science to maximize our profits in the cryptocurrency market and even the stock market!</em></p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[55]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-python"><pre><span></span><span class="c1">#Convert to HTML</span>
-<span class="err">!</span><span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="o">--</span><span class="n">to</span> <span class="n">html</span>
+<span class="c1">#!jupyter nbconvert --to html /content/Analysis_of_Popular_Cryptocurrencies.ipynb</span>
 </pre></div>
 
     </div>
